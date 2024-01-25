@@ -28,8 +28,6 @@ app.get("/skills", (req, res) => {
     },
   ]);
 });
-3;
-
 app.listen(port, () => {
   `listening at http://localhost:${port}`;
 });

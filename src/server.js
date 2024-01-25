@@ -12,6 +12,24 @@ app.get("/", (req, res) => {
       `);
 });
 
+app.get("/skills", (req, res) => {
+  res.json([
+    {
+      idCode: "111",
+      name: "Test111",
+      url: "http111",
+      description: "desc111",
+    },
+    {
+      idCode: "222",
+      name: "Test222",
+      url: "http222",
+      description: "desc222",
+    },
+  ]);
+});
+3;
+
 app.listen(port, () => {
   `listening at http://localhost:${port}`;
 });
